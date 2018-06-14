@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gradient_home"
+    android:orientation="vertical"
+    tools:showIn="@layout/fragment_home_new">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <com.github.lzyzsd.circleprogress.DonutProgress
+                    android:id="@+id/donut_progress_steps"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerInParent="true"
+                    app:donut_finished_stroke_width="6dp"
+                    app:donut_unfinished_stroke_width="3dp"
+                    custom:donut_finished_color="@color/light_blue"
+                    custom:donut_progress="0"
+                    custom:donut_show_text="false"
+                    custom:donut_unfinished_color="@color/grey_light_very"/>
+
+                <ImageView
+                    android:id="@+id/iv_stat_steps"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="16dp"
+                    android:src="@drawable/shoes_white"/>
+
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/tv_steps_count"
+                style="@style/metric_value"
+                android:text="0"/>
+
+            <TextView
+                style="@style/metric_name"
+                android:text="@string/home_steps"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <com.github.lzyzsd.circleprogress.DonutProgress
+                    android:id="@+id/donut_progress_distance"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerInParent="true"
+                    app:donut_finished_stroke_width="6dp"
+                    app:donut_unfinished_stroke_width="3dp"
+                    custom:donut_finished_color="@color/light_blue"
+                    custom:donut_progress="0"
+                    custom:donut_show_text="false"
+                    custom:donut_unfinished_color="@color/grey_light_very"/>
+
+                <ImageView
+                    android:id="@+id/iv_stat_distance"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="16dp"
+                    android:src="@drawable/location_white"/>
+
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/tv_distance"
+                style="@style/metric_value"
+                android:text="0"/>
+
+            <TextView
+                style="@style/metric_name"
+                android:text="@string/home_km"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

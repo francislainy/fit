@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+
+    <!-- General Config -->
+    <bool name="spectrum_api_is_live">true</bool>
+
+
+    <!-- Spectrum API Backend  -->
+    <!--<string name="spectrum_api_dev">http://dev.spectrumwellness.ie</string>  &lt;!&ndash; Uncomment this to test in the dev environment &ndash;&gt;-->
+
+    <string name="spectrum_api_dev">http://qa.spectrumwellness.ie</string>  <!-- Uncomment this to test in the qa environment -->
+
+
+    <string name="spectrum_api_live">http://healthcoach-api.com</string>   <!-- Todo: Connect through HTTPS  --> <!-- Uncomment this to test in the live environment -->
+    <!--<string name="spectrum_api_live">http://export.spectrumwellness.ie</string> &lt;!&ndash; Uncomment this to test in the pre-production environment &ndash;&gt;-->
+
+
+</resources>

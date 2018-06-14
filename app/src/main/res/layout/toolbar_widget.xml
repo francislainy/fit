@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/light_blue"
+    android:minHeight="?attr/actionBarSize"
+    app:contentInsetEnd="0dp"
+    app:contentInsetLeft="0dp"
+    app:contentInsetRight="0dp"
+    app:contentInsetStart="0dp"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <ImageView
+        android:id="@+id/iv_placeholder"
+        android:layout_width="72dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_actionbar_hamburger"
+        android:visibility="invisible"/>
+
+
+    <TextView
+        android:id="@+id/logo_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="?attr/actionBarSize"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:textStyle="normal"/>
+
+</android.support.v7.widget.Toolbar>

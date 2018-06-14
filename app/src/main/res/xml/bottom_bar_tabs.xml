@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        icon="@drawable/selector_home_tab"
+        id="@+id/tab_home"/>
+
+    <tab
+        icon="@drawable/selector_fitness_tab"
+        id="@+id/tab_fitness"/>
+
+    <tab
+        icon="@drawable/selector_nutrition_tab"
+        id="@+id/tab_nutrition"/>
+
+    <tab
+        icon="@drawable/selector_eap_tab"
+        id="@+id/tab_eap"/>
+
+    <tab
+        icon="@drawable/selector_more_tab"
+        id="@+id/tab_more"/>
+
+</tabs>

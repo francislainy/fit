@@ -1,0 +1,4 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/tab_nutrition_pink" android:state_selected="true"/>
+    <item android:drawable="@drawable/tab_nutrition_grey" android:state_selected="false"/>
+</selector>
