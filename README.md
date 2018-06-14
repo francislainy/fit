@@ -1,6 +1,6 @@
 # Google Fit integration sample app
 
-This is a simple template to help anyone who may be trying to displays the Google Fit data from within their app.
+This is a simple template to help anyone who may be trying to display the Google Fit data from within their app.
 
 ## What it does
 
