@@ -12,7 +12,7 @@ Make sure you copy the debug.key file committed to the project to your .android 
 
 PS: The .android folder is usually located within c/users/username
 
-## Issues I would love your help to solve
+## Issues I would love your help with
 
 The app currently displays the distance data as a total of walking + (running + cycling + etc). 
 I would love to be able to get the walked distance only.
