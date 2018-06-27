@@ -4,7 +4,7 @@ This is a simple template to help anyone who may be trying to display the Google
 
 ## What it does
 
-It displays both the steps and distance data recorded on the Google Fit app
+It displays both the steps and distance data recorded on the Google Fit app for today's date
 
 ## What you should do to run this code
 
